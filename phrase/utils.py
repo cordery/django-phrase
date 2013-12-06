@@ -20,4 +20,4 @@ class PhraseDelegate:
         name = self.name
         name = name.replace("<", "[[[[[[html_open]]]]]]")
         name = name.replace(">", "[[[[[[html_close]]]]]]")
-        return name
+        return name.strip()
