@@ -5,6 +5,8 @@ from django.conf import settings
 from django.utils import translation
 from django.templatetags.i18n import BlockTranslateNode, TranslateNode
 
+import re
+
 from phrase import settings as phrase_settings
 from phrase.nodes import PhraseBlockTranslateNode, PhraseTranslateNode
 
